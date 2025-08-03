@@ -10,3 +10,20 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+
+const num1 = 100;
+const num2 = 99;
+
+let result = null;
+
+/**
+if (num1 > num2) {
+    result = num1 * 2;
+} else {
+    result = num1 + num2;
+}
+*/
+
+result = num1 > num2 ? num1 * 2 : num1 + num2;
+
+console.log(result);
